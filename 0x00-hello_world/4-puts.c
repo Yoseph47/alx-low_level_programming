@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-/*
+/**
 *header file
 *main - simple display statement using puts
 *Return: always 0
