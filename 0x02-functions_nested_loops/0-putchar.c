@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* main- prints _putchar in new lines
+* main- prints _putchar
 *
 * Return: always returns 0
 *
@@ -12,8 +12,7 @@ _putchar('p');
 _putchar('u');
 _putchar('t');
 _putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
+_putchar('a');                                                                  _putchar('r');
+_putchar('\n');
 return (0);
 }
