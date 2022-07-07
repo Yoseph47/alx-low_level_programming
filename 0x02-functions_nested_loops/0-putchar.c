@@ -6,9 +6,10 @@
 * Return: always returns 0
 *
 **/
-int _putchar (char c ){
-putchar(c);
-return 0;
+#include <unistd.h>
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
 }
 int main(void)
 {
