@@ -10,8 +10,8 @@ int ch;
 for (ch = 48; ch <= 57; ch++)
 {
 _putchar(ch);
-_putchar('\n');
 }
+_putchar('\n');
 }
 // int _putchar(char c)
 // {
