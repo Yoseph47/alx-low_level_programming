@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the code.
+ * main - check if alphabet c uppercase code.
  *
  * Return: Always 0.
  */
