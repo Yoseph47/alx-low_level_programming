@@ -1,4 +1,4 @@
-#include "maintest.h"
+#include "main.h"
 /**
  * main - check if alphabet c uppercase code.
  *
