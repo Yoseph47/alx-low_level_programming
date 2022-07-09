@@ -2,9 +2,7 @@
 #include "stdio.h"
 /**
 * main- prints _putchar
-*
 * Return: always returns 0
-*
 **/
 int main(void)
 {
