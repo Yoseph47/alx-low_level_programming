@@ -2,6 +2,7 @@
 /**
 * print_diagonal - prints diagonal line n times.
 * @n: number of times diagonal line is pprinted.
+* Return: no return.
 */
 void print_diagonal(int n)
 {
