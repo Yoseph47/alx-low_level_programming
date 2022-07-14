@@ -1,21 +1,19 @@
 #include "main.h"
 /**
- * _strcmp - return length of a string
- * @s1: char type
- * @s2: char type
- * Return: positive negative or zero
- */
+  * _strcmp - compares two strings
+  * @s1: string 1
+  * @s2: string 2
+  * Return: 0 if same, diff otherwise
+  */
 int _strcmp(char *s1, char *s2)
 {
-	int a;
-    for (a = 0; s1[a] != '\0'; a++)
-		;
-	for (a = 0; s2[a] != '\0'; a++)
+	int i = 0;
+	int diff = 0;
+
+	while (s1[i] != '\0' && diff == 0)
 	{
-		if (s1[a] != s2[a])
-		{
-			return (s1[a] - s2[a]);
-		}
+		diff = s1[i] - s2[i];
+		i++;
 	}
-	return (0);
+	return (diff);
 }
