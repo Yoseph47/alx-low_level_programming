@@ -1,0 +1,1 @@
+this is a readme for meven more pointers arrays project i will update it later
